@@ -754,11 +754,11 @@ section .container {
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: burlywood;
 }
 
 .services .icon-box:hover .icon i {
-  color: #18d26e;
+  color: black;
 }
 
 .services .icon-box:hover .icon::before {
@@ -767,7 +767,7 @@ section .container {
 
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
-  color: #fff;
+  color: black;
 }
 
 /*--------------------------------------------------------------
