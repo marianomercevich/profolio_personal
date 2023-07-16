@@ -636,13 +636,24 @@
         </div>
       </div>
 
+
+      <label for="firstName">First Name:</label>
+<input name="firstName" id="firstName" type="text" autocomplete="given-name">
+
+<label for="lastName">Last Name:</label>
+<input name="lastName" id="lastName" type="text" autocomplete="family-name">
+
+<label for="email">Email:</label>
+<input name="email" id="email" type="email" autocomplete="off">
+
+
       <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
         <div class="row">
           <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
+            <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required  autocomplete="given-name">
           </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" required>
+          <div class="col-md-6 form-group mt-3 mt-md-0" >
+            <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" required autocomplete="off">
           </div>
         </div>
         <div class="form-group mt-3">
